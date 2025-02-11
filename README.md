@@ -4,7 +4,6 @@
 
 ### Pliki projektu
 - `Projekt.ipynb`: Główny notebook zawierający cały proces analizy danych, od wczytywania danych, przez czyszczenie, analizę, modelowanie, aż po wizualizację wyników.
-- `app.py`: Skrypt Streamlit tworzący interaktywny dashboard do wizualizacji danych o wypadkach.
 - `Dane/caracteristics.csv`: Plik CSV zawierający dane o charakterystyce wypadków.
 - `Dane/vehicles.csv`: Plik CSV zawierający dane o pojazdach uczestniczących w wypadkach.
 - `Dane/places.csv`: Plik CSV zawierający dane o miejscach wypadków.
@@ -25,10 +24,6 @@
 2. Upewnij się, że masz zainstalowane wymagane oprogramowanie (patrz poniżej).
 3. Otwórz plik `Projekt.ipynb` w Jupyter Notebook lub JupyterLab.
 4. Uruchom wszystkie komórki w notebooku, aby przeprowadzić pełną analizę danych.
-5. Aby uruchomić dashboard Streamlit, otwórz terminal, przejdź do katalogu z plikiem `app.py` i uruchom polecenie:
-   ```
-   streamlit run dashboard.py
-   ```
 
 ### Wymagane oprogramowanie
 - Python 3.12.2
@@ -37,11 +32,10 @@
   - matplotlib
   - seaborn
   - scikit-learn
-  - streamlit
 
 Możesz zainstalować wymagane biblioteki za pomocą poniższego polecenia:
-```sh
-pip install pandas matplotlib seaborn scikit-learn streamlit
+```
+pip install pandas matplotlib seaborn scikit-learn 
 ```
 
 ## Źródło danych
